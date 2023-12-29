@@ -72,6 +72,7 @@ namespace Imgeneus.Database.Preload
         /// </summary>
         private void PreloadItems(IDatabase database)
         {
+            //Change
             var items = database.Items;
             foreach (var item in items)
             {
